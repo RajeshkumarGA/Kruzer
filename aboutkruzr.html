@@ -1,0 +1,553 @@
+<html>
+   <head>
+      <title>Kruzr - Smart Driving Assistant</title>
+      <meta name="description" content="Kruzr is a smart driving assistant mobile app. Eliminates distracted driving. Handles calls and messages intelligently. Drive Smart. Road Safety." />
+      <meta name="keywords" content="Smart Driving Assistant,Distracted driving app,Safe driving app,Safe Driving,Road Safety,Smart driving app,In-car assistant,Safe driving assistant app,Drive mode,Driving interface,digital co-driver,Smart driving,Safe Drive,Texting and driving,call blocker,caller id,personal assistant">
+      <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script type="text/javascript" src="js/plugins.js"></script>
+      <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"> -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- Open Sans Google font -->
+      <link rel="stylesheet" href="css/css?family=Open+Sans:300,400">
+      <!-- Raleway Google font -->
+      <link rel="stylesheet" href="css/css?family=Raleway:700">
+      <!-- Favicons -->
+      <!-- Favicons -->
+			<!-- <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg"> -->
+			<link rel="shortcut icon" href="img/favicon.ico">
+			<link rel="icon" sizes="16x16 32x32 64x64" href="img/favicon.ico">
+			<link rel="icon" type="image/png" sizes="196x196" href="img/favicon-192.png">
+			<link rel="icon" type="image/png" sizes="160x160" href="img/favicon-160.png">
+			<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
+			<link rel="icon" type="image/png" sizes="64x64" href="img/favicon-64.png">
+			<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+			<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+			<link rel="apple-touch-icon" href="/favicon-57.png">
+			<link rel="apple-touch-icon" sizes="114x114" href="img/favicon-114.png">
+			<link rel="apple-touch-icon" sizes="72x72" href="img/favicon-72.png">
+			<link rel="apple-touch-icon" sizes="144x144" href="img/favicon-144.png">
+			<link rel="apple-touch-icon" sizes="60x60" href="img/favicon-60.png">
+			<link rel="apple-touch-icon" sizes="120x120" href="img/favicon-120.png">
+			<link rel="apple-touch-icon" sizes="76x76" href="img/favicon-76.png">
+			<link rel="apple-touch-icon" sizes="152x152" href="img/favicon-152.png">
+			<link rel="apple-touch-icon" sizes="180x180" href="img/favicon-180.png">
+			<meta name="msapplication-TileColor" content="#FFFFFF">
+			<meta name="msapplication-TileImage" content="img/favicon-144.png">
+			<meta name="msapplication-config" content="img/browserconfig.xml">
+      <link rel="kruzr-icon" sizes="60x60" href="img/logo.svg">
+      <!-- Ionicon fonts css file -->
+      <link rel="stylesheet" href="css/ionicons.min.css">
+      <!-- magnific popup css file -->
+      <link rel="stylesheet" href="css/magnific-popup.css">
+      <!-- Animate.css file -->
+      <link rel="stylesheet" href="css/animate.css">
+      <!-- Owl carousel css file -->
+      <link rel="stylesheet" href="css/owl.carousel.css">
+      <!-- Bootstrap file -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- Custom styles css file -->
+      <link rel="stylesheet" href="css/kruzr-style.css">
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&amp;subset=latin-ext" rel="stylesheet">
+      </script>
+
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WQ2V5J8');</script>
+      <!-- End Google Tag Manager -->
+
+      <script type="text/javascript">
+         $(document).scroll(function(e){
+             var scrollTop = $(document).scrollTop();
+             if(scrollTop > 0){
+                 // console.log(scrollTop);
+                 $('.navbar').removeClass('navbar-static-top').addClass('navbar-fixed-top');
+             } else {
+                 $('.navbar').removeClass('navbar-fixed-top').addClass('navbar-static-top');
+             }
+         });
+      </script>
+      <script type="text/javascript">
+         // Create a clone of the menu, right next to original.
+
+         $(window).resize(function () {
+
+           if($(window).width() < 750){
+                   window.location = "./aboutkruzr-mobile.html"
+               }
+         });
+      </script>
+      <script >
+         function myFunction() {
+             // alert("Page is loaded");
+
+             if($(window).width() < 750){
+                     window.location = "./aboutkruzr-mobile.html"
+                 }
+         }
+      </script>
+      <script type="text/javascript">
+         function preloadFunc()
+         {
+           if($(window).width() < 750){
+                   window.location = "./aboutkruzr-mobile.html"
+               }
+         }
+         window.onpaint = preloadFunc();
+      </script>
+      <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+         ga('create', 'UA-103998989-1', 'auto');
+         ga('send', 'aboutkruzr');
+
+      </script>
+      <!-- JSON-LD markup generated by Google Structured Data Markup Helper. -->
+      <script type="application/ld+json">
+         {
+           "@context" : "http://schema.org",
+           "@type" : "Article",
+           "name" : "Kruzr",
+           "author" : {
+             "@type" : "Person",
+             "name" : "Dinesh Fatehpuria"
+           },
+           "image" : "http://www.kruzr.co/img/logo.svg",
+           "url" : "http://www.kruzr.co/aboutkruzr.html",
+           "publisher" : {
+             "@type" : "Organization",
+             "name" : "Kruzr"
+           }
+         }
+      </script>
+
+      <!-- Facebook Pixel Code -->
+      	<script>
+      	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      	document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      	fbq('init', '673801936126494'); // Insert your pixel ID here.
+      	fbq('track', 'PageView');
+      	</script>
+      	<noscript><img height="1" width="1" style="display:none"
+      	src="https://www.facebook.com/tr?id=673801936126494&ev=PageView&noscript=1"
+      	/></noscript>
+
+      <style type="text/css">
+
+         body{
+         width: 100%;
+         height: 100%;
+         background:#EAEAF0;
+         }
+
+
+         .how-kruzr-works{
+         margin-left: 50px;
+         margin-right: 50px;
+         }
+         p.dashed {border-top-style: dashed ;
+         color: solid #4a90e2;
+         }
+         p.how-kruzr-works-text{
+         font-family:'Work Sans', sans-serif;
+         font-weight: 300;
+         font-size:48px;
+         color:#000000;
+         letter-spacing:0;
+         text-align:center;
+         }
+         p.box-head{
+         font-family:'Work Sans', sans-serif;
+         font-weight: 400;
+         font-size:28px;
+         color:#042333;
+         letter-spacing:0;
+         text-align:left;
+         }
+         p.box-cont{
+         font-family:'Work Sans', sans-serif;
+         font-weight: 400;
+         font-size:18px;
+         color:#042333;
+         line-height:30px;
+         letter-spacing:0;
+         text-align:left;
+         }
+         /* -----------------------------------------------------------
+         Start of How it works
+         -------------------------------------------------------------*/
+         .flow
+         {
+         padding-bottom: 500px;
+         }
+         .flow_line
+         {
+         height: 47px;
+         border-bottom: 5px dotted #979797;
+         /*position: absolute;
+         margin-left: 50px;*/
+         }
+         .flow_line_first
+         {
+         height: 47px;
+         border-bottom: 5px dotted #979797;
+         /*position: absolute;
+         margin-left: 50px;*/
+         }
+         .flow-text{
+         font-family:'Work Sans', sans-serif;
+         font-weight: 300;
+         font-size:24px;
+         color:#042333;
+         letter-spacing:0;
+         text-align:center;
+         }
+         .flow-img
+         {
+         }
+         .smi-circle-right{
+         height:300px;
+         width:130px;
+         border-radius: 0 300px 300px 0;
+         border: 5px dotted #979797;
+         border-left: 0;
+         }
+         .smi-circle-left{
+         height:300px;
+         width:130px;
+         border-radius: 300px 0 0 300px;
+         border: 5px dotted #979797;
+         border-right: 0;
+         }
+         .navbar {
+         overflow: hidden;
+         background-color: white;
+         position: fixed;
+         top: 0;
+         width: 100%;
+         margin:0%;
+         }
+         #wrapper {
+         margin-left:auto;
+         margin-right:auto;
+         width:860px;
+         }
+         @media only screen and (min-width : 768px) {
+         .kruzr-enginering{
+         background:white;
+         height:430px;
+         }
+         }
+         @media only screen and (min-width : 992px) {
+         .kruzr-enginering{
+         background:white;
+         height:430px;
+         }
+       }
+         @media only screen and (min-width : 1200px) {
+         .kruzr-enginering{
+         background:white;
+         height:320px;
+         }
+         }
+      </style>
+   </head>
+   <body onload="myFunction()">
+
+   <!-- Google Tag Manager (noscript) -->
+   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQ2V5J8"
+   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+   <!-- End Google Tag Manager (noscript) -->
+
+      <!-- Navigation container -->
+      <div class="nav-container-1">
+         <nav class="row navbar navbar-default">
+            <div class="container" >
+               <div class="row"   style="padding-bottom:0;margin-bottom:0;">
+                  <!-- Footer Cont No. 1 -->
+                  <div class="col-md-3 col-sm-4">
+                     <!-- Left contents -->
+                     <ul class="nav navbar-nav navbar-left" style="float:left">
+                        <li>
+                           <a href = "index.html"><img src="img/logo.svg" height="37" width="37" float="left" /></a>
+                        </li>
+                        <li>
+                           <a href = "index.html" class="menu-kruzr"  style="text-align:left;float:middle;margin-top:10px; margin-left:-10%">K R U Z R</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-md-9 col-sm-8">
+                     <!-- right contents -->
+                     <ul class="nav navbar-nav navbar-right" style="float:right">
+                        <!-- <li>
+                           <a class="menu-titles" >  <p style="fletter-spacing:0;text-align:left;float:middle;padding-top:10px;">Our Impact</p>
+                            </a>
+                           </li> -->
+                        <li>
+                           <a  href="aboutkruzr.html" target="_blank" class="menu-titles" >
+                              <p style="letter-spacing:0;text-align:left;float:middle;padding-top:10px;color:#4a90e2">HOW KRUZR WORKS</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://play.google.com/store/apps/details?id=co.kruzr.drivesafe&utm_source=website&utm_medium=banner&utm_campaign=about_menu&utm_content=fear" target="_blank">  <img src="img/kruzrandroid.svg" class="menu-download-icon"  align="left" style="float:middle;padding-bottom:5%;margin-left:5px;margin-right:10px;margin-top:0px;" />
+                           </a>
+                        </li>
+                        <li>
+                           <a>  <img src="img/kruzrios.svg" class="menu-download-icon"  align="left" style="float:middle;padding-bottom:5%;margin-left:-20px;margin-top:-1px;" />
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <!-- End Navigation container -->
+      <!-- Start of How kruzr works flow chart-->
+      <div class="how-kruzr-works" style="float:middle;">
+         <div>
+            <p class="how-kruzr-works-text" style="margin-bottom:5%;margin-top:10%;color:#042333">Imagine a drive from your home to office, with no distractions & a richer driving experience.</p>
+            <div class="flow" id="wrapper" style="margin-bottom:10%;" >
+               <!--top line -->
+               <div class="flow_line" style="width:35%;margin-left:45%;">
+                  <div class="flow-img" style="margin-left:-5%">
+                     <img src="img/ic_hex_home.svg" height="72" width="72"/>
+                  </div>
+                  <div style="margin-left:-90%; margin-right:0%">
+                     <p class="flow-text"> Kruzr app runs in the background and detects when you start driving automatically.</p>
+                  </div>
+               </div>
+               <!-- Half circle right -->
+               <div  class="smi-circle-right" style="margin-left:80%;margin-top:-0.4%;">
+               </div>
+               <!-- Second line -->
+               <div class="flow_line" style="width:70%; margin-left:10%;margin-top:-4.8%;">
+                  <div style="margin-left:10%">
+                     <div class="flow-img">
+                        <img src="img/ic_hex_chat.svg" height="72" width="72"/>
+                     </div>
+                     <div style="margin-left:-18%; margin-right:70%">
+                        <p class="flow-text"> When someone messages you, it interacts with them and records their message.</p>
+                     </div>
+                  </div>
+                  <div style="margin-top:-40%;margin-left:80%;">
+                     <div class="flow-img">
+                        <img src="img/ic_hex_call.svg" height="72" width="72"/>
+                     </div>
+                     <div style="margin-left:-120%; margin-right:-50%">
+                        <p class="flow-text"> When someone calls you, it answers it and informs the caller you are driving. It asks them to continue the call only if its very important.</p>
+                     </div>
+                  </div>
+                  <!-- Half circle left -->
+                  <div  class="smi-circle-left" style="margin-left:-19.5%;margin-top:-33.5%">
+                  </div>
+               </div>
+               <!-- third line -->
+               <div class="flow_line" style="width:70%; margin-top:29%;margin-left:10.5%;">
+                  <div style="margin-left:10%">
+                     <div class="flow-img">
+                        <img src="img/ic_hex_signal.svg" height="72" width="72"/>
+                     </div>
+                     <div style="margin-left:-18%; margin-right:70%">
+                        <p class="flow-text"> When you stop at signals, it informs you about important messages. You can also check your trip summary.</p>
+                     </div>
+                  </div>
+                  <div style="margin-top:-45%;margin-left:80%;">
+                     <div class="flow-img">
+                        <img src="img/ic_hex_music.svg" height="72" width="72"/>
+                     </div>
+                     <div style="margin-left:-80%; margin-right:-25%">
+                        <p class="flow-text"> You can play your favourite music with just 1 click.</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- Half circle right -->
+               <div  class="smi-circle-right" style="margin-left:80%;margin-top:-.5%">
+               </div>
+               <div class="flow_line" style="width:60%; margin-top:-5.5%;margin-left:20%;">
+                  <div style="margin-left:0%">
+                     <div class="flow-img" style="margin-left:-5%">
+                        <img src="img/ic_hex_end.svg" height="72" width="72"/>
+                     </div>
+                     <div style="margin-left:-20%; margin-right:70%">
+                        <p class="flow-text">When your trip ends, it shows the trip summary. You can call or message back with one click.</p>
+                     </div>
+                  </div>
+                  <div style="margin-top:-45%;margin-left:80%;">
+                     <div class="flow-img">
+                        <img src="img/ic_hex_nav.svg" height="72" width="72"/>
+                     </div>
+                     <div style="margin-left:-80%; margin-right:-15%">
+                        <p class="flow-text"> You can navigate to your stored locations with one click.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <p class="how-kruzr-works-text" style="margin-top:-25%;margin-bottom:5%;">Kruzr comes with exceptional engineering & design under its hood..</p>
+            <div  style="float:middle;margin-bottom:10%;" >
+               <div class="col-md-4 col-sm-4" style="background:#EAEAF0;">
+                  <div class="kruzr-enginering";>
+                     <div style="display:inline-block;margin-top:36px;margin-left:20px;margin-right:15px">
+                        <img src="img/ic_automation_mobile.svg" height="65" width="65" align="left"/>
+                        <div>
+                           <p class="box-head" style="float:center; text-align:center" > Automatic Drive Detection</p>
+                        </div>
+                     </div>
+                     <p class="box-cont" style="display:inline-block;margin-left:20px;margin-top:10px;margin-right:15px;margin-bottom:20px;text-align: justify;">Kruzr’s proprietary algorithms processes motion sensor data to  detect when you start and stop driving. We employ machine learning to mimic your state of motion, like cruising or stopped at signal etc.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-4" style="background:#EAEAF0;">
+                  <div class="kruzr-enginering";>
+                     <div style="display:inline-block;margin-top:36px;margin-left:20px;margin-right:15px">
+                        <img src="img/ic_touch.svg" height="65" width="65" align="left"/>
+                        <div>
+                           <p class="box-head" style="float:center; text-align:center" >    Human Centred Design</p>
+                        </div>
+                     </div>
+                     <p class="box-cont" style="display:inline-block;margin-left:20px;margin-top:10px;margin-right:15px;margin-bottom:20px;text-align: justify;">Our app design puts every feature you need while driving accessible on one touch or swpie. This minimizes the time of eyes away from road, significantly improving your safety.</p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-4" style="background:#EAEAF0;">
+                  <div class="kruzr-enginering";>
+                     <div style="display:inline-block;margin-top:36px;margin-left:20px;margin-right:15px">
+                        <img src="img/ic_chatbot.svg" height="65" width="65" align="left"/>
+                        <div>
+                           <p class="box-head" style="float:center; text-align:center" > One of its kind Chatbot</p>
+                        </div>
+                     </div>
+                     <p class="box-cont" style="display:inline-block;margin-left:20px;margin-top:10px;margin-right:15px;margin-bottom:20px;text-align: justify;">We have built the first  cross-platform chatbot for person-to-person communication. It uses natrual language processing to understand the message and act accordingly.</p>
+                  </div>
+               </div>
+            </div>
+            <p class="how-kruzr-works-text" style="margin-top:40%;">The rest we leave it to you while you drive with kruzr :)</p>
+            <div class = "text_content_download_button" style="margin-bottom:10%;" >
+               <a href="https://play.google.com/store/apps/details?id=co.kruzr.drivesafe&utm_source=website&utm_medium=banner&utm_campaign=about_bottom&utm_content=fear" target="_blank">
+               <button class="button1" type="submit" style="background-color:transparent; border-color:transparent;">
+               <img src="img/play.svg" height=70px width=180px /></button>
+               </a>
+               <a>
+               <button class="button1" type="submit" style="background-color:transparent; border-color:transparent;">
+               <img src="img/istore_cs.svg" height=70px width=180px /></button>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- Start Footer Section -->
+      <div class="footer center" style="width:100%;" >
+         <div class="container" >
+            <div class="row" style="display:inline-black"  style="padding-bottom:0;margin-bottom:0;">
+               <!-- Footer Cont No. 1 -->
+               <div class="col-md-3 col-sm-3">
+                  <div class="foot-sp"  >
+                     <p class="foot-text-without-image" style="margin-left:5%">In the Media</p>
+                     <div class="row" style="background:#879ba3;margin:5%;margin-left:5%" >
+                        <a href="http://www.ndtv.com/video/news/road-to-safety/iit-graduates-to-launch-road-safety-mobile-app-419250" target="_blank" >  <img src="img/ndtv.svg" height="53" width="53" align="left" />
+                        </a>
+                        <a href="http://geek.digit.in/2017/07/app-of-the-week-kruzr/" target="_blank" >  <img src="img/digit.svg" height="53" width="53" align="left" style="margin-left:10%" />
+                        </a>
+                        <!-- <a href="https://yourstory.com/2016/11/app-fridays-kruzr/" target="_blank" >  <img src="img/gadgetsnow.svg" height="53" width="53" align="left" style="margin-left:10%" />
+                           </a> -->
+                     </div>
+                     <div class="row" style="background:#879ba3;margin:5%;margin-left:5%">
+                        <a href="https://www.techinasia.com/drive-phone-app-kruzr" target="_blank" >  <img src="img/tiasia.svg" height="53" width="53" align="left" />
+                        </a>
+                        <a href="https://yourstory.com/2016/11/app-fridays-kruzr/" target="_blank" >  <img src="img/yourstory.svg" height="53" width="53" align="left" style="margin-left:10%" />
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <!-- Footer Cont No. 2 -->
+               <div class="col-md-4 col-sm-4">
+                  <div class="foot-sp" >
+                     <p class="foot-text-without-image" style="margin-left:8%"> See how Kruzr Works.</p>
+                     <div class="row" style="margin-right:2%">
+                        <a href="https://www.youtube.com/watch?v=JTr9Uo9dlR4" target="_blank" style="">  <img src="img/concept.svg" height="50" width="173" align="left"/>
+                        </a>
+                        <div style="padding-top:4%;padding-left:2%">
+                           <a href="https://www.youtube.com/watch?v=JTr9Uo9dlR4" target="_blank" >
+                              <p class="foot-text" style="float:middle;" >   Concept Video</p>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="row" style="margin-right:2%;margin-top:5%">
+                        <a href="https://www.youtube.com/watch?v=BzRgNcOxxpE" target="_blank" style="">  <img src="img/howworks.svg" height="50" width="173" align="left"/>
+                        </a>
+                        <div style="padding-top:4%;padding-left:2%">
+                           <a href="https://www.youtube.com/watch?v=BzRgNcOxxpE" target="_blank" >
+                              <p class="foot-text" style="float:middle;" >   Demo Video</p>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- <div class="row">
+                        <a href="aboutkruzr.html" target="_blank">  <p class="foot-text1"  > Read about how it works></p>
+                        </a>
+
+                        </div> -->
+                  </div>
+               </div>
+               <!-- Footer Cont No. 3 -->
+               <div class="col-md-3 col-sm-3">
+                  <div class="foot-sp" >
+                     <p class="foot-text-without-image"> Get to Know Us</p>
+                     <div class="row">
+                        <a href="https://blog.kruzr.co/" target="_blank" >
+                           <p class="foot-text1" style="padding-bottom:3%;" > Blog </p>
+                        </a>
+                        <a href="https://blog.kruzr.co/" target="_blank" >
+                           <p class="foot-text1" style="float:middle; padding-bottom:3%;" > About Us </p>
+                        </a>
+                        <a href="mailto:contact@kruzr.co" target="_blank" >
+                           <p class="foot-text1" style="float:middle;padding-bottom:6%;" > Contact </p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <!-- Footer Cont No. 4-->
+               <div class="col-md-2 col-sm-2" >
+                  <!-- <div class="foot-sp"  > -->
+                  <p class="foot-text-without-image"> Join the Community</p>
+                  <div class="row" style="margin-left:3%">
+                     <a href="https://www.facebook.com/kruzrsmartdrive/" target="_blank">  <img src="img/fb.svg" height="24" width="24" align="left" />
+                     </a>
+                     <a href="https://www.facebook.com/kruzrsmartdrive/" target="_blank">
+                        <p class="foot-text" style="float:left;margin-left:20px" >   Facebook</p>
+                     </a>
+                  </div>
+                  <div >
+                     <div class="row" style="margin-left:3%">
+                        <a href="https://twitter.com/Kruzr_co" target="_blank">  <img src="img/twitter.svg" height="24" width="24" align="left"/>
+                        </a>
+                        <a href="https://twitter.com/Kruzr_co" target="_blank" >
+                           <p class="foot-text" style="float:left;margin-left:20px" > Twitter</p>
+                        </a>
+                     </div>
+                  </div>
+                  <div >
+                     <div class="row" style="margin-left:3%">
+                        <a href="https://www.youtube.com/channel/UCLWOnoY7pHr0E72XwyULi_Q" target="_blank">  <img src="img/youtube.svg" height="24" width="24" align="left"/>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCLWOnoY7pHr0E72XwyULi_Q" target="_blank" >
+                           <p class="foot-text" style="float:left;margin-left:20px" > Youtube</p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
