@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="375px" viewBox="0 0 360 375" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>navigation</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="77.6130964%" id="linearGradient-1">
+            <stop stop-color="#58AD99" stop-opacity="0.520153986" offset="0%"></stop>
+            <stop stop-color="#A0CDB0" stop-opacity="0.541610054" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="360" height="375"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="navigation">
+            <g id="Rectangle-14">
+                <use fill="#4A90E2" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            </g>
+            <g id="Group-2-Copy-3" transform="translate(33.000000, 23.000000)" font-size="14" fill="#FFFFFF">
+                <text id="692-,-1st-Floor-,-11" font-family="WorkSans-Regular, Work Sans" font-weight="normal">
+                    <tspan x="0" y="34">692 , 1st Floor , 11th ‘A’ Main, </tspan>
+                    <tspan x="0" y="50">5th Block, Jayanagar…</tspan>
+                </text>
+                <text id="Home" font-family="WorkSans-SemiBold, Work Sans" font-weight="500">
+                    <tspan x="0" y="13">Home</tspan>
+                </text>
+            </g>
+            <g id="Group-2-Copy-4" transform="translate(33.000000, 111.000000)" font-size="14" fill="#FFFFFF">
+                <text id="6th-floor,-Kendriya" font-family="WorkSans-Regular, Work Sans" font-weight="normal">
+                    <tspan x="0" y="34">6th floor, Kendriya Sadan, C &amp; </tspan>
+                    <tspan x="0" y="50">E Wing, 17th main…</tspan>
+                </text>
+                <text id="Office" font-family="WorkSans-SemiBold, Work Sans" font-weight="500">
+                    <tspan x="0" y="13">Office</tspan>
+                </text>
+            </g>
+            <g id="Group-2-Copy-5" transform="translate(33.000000, 199.000000)" font-size="14" fill="#FFFFFF">
+                <text id="2nd-&amp;-3rd-floor,-“Ca" font-family="WorkSans-Regular, Work Sans" font-weight="normal">
+                    <tspan x="0" y="34">2nd &amp; 3rd floor, “Cash </tspan>
+                    <tspan x="0" y="50">Pharmacy Building”, Bengaluru</tspan>
+                </text>
+                <text id="Mark’s-Home" font-family="WorkSans-SemiBold, Work Sans" font-weight="500">
+                    <tspan x="0" y="13">Mark’s Home</tspan>
+                </text>
+            </g>
+            <g id="Group-2-Copy-6" transform="translate(33.000000, 287.000000)" font-size="14" fill="#FFFFFF">
+                <text id="Veer-Sandra-Gollahal" font-family="WorkSans-Regular, Work Sans" font-weight="normal">
+                    <tspan x="0" y="34">Veer Sandra Gollahalli Main </tspan>
+                    <tspan x="0" y="50">Road , Electronic City, Phase…</tspan>
+                </text>
+                <text id="School" font-family="WorkSans-SemiBold, Work Sans" font-weight="500">
+                    <tspan x="0" y="13">School</tspan>
+                </text>
+            </g>
+            <polyline id="Fill-210-Copy" fill="#FFFFFF" points="318 41 316.41375 42.58625 322.69125 48.875 309 48.875 309 51.125 322.69125 51.125 316.41375 57.41375 318 59 327 50 318 41"></polyline>
+            <polyline id="Fill-210-Copy" fill="#FFFFFF" points="318 129 316.41375 130.58625 322.69125 136.875 309 136.875 309 139.125 322.69125 139.125 316.41375 145.41375 318 147 327 138 318 129"></polyline>
+            <polyline id="Fill-210-Copy" fill="#FFFFFF" points="318 217 316.41375 218.58625 322.69125 224.875 309 224.875 309 227.125 322.69125 227.125 316.41375 233.41375 318 235 327 226 318 217"></polyline>
+            <polyline id="Fill-210-Copy" fill="#FFFFFF" points="318 305 316.41375 306.58625 322.69125 312.875 309 312.875 309 315.125 322.69125 315.125 316.41375 321.41375 318 323 327 314 318 305"></polyline>
+        </g>
+    </g>
+</svg>

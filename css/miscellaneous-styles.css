@@ -1,0 +1,138 @@
+body{
+width: 100%;
+height: 100%;
+background:#EAEAF0;
+}
+
+
+
+
+
+.flow_line
+{
+height: 47px;
+border-bottom: 5px dotted #979797;
+/*position: absolute;
+margin-left: 50px;*/
+}
+
+
+
+@media screen and (max-width: 750px) {
+  .nav-container-mobile{
+    display: block !important;
+  }
+  .footer-mobile{
+   display: block !important;
+ }
+  .nav-container-1{
+    display: none !important;
+  }
+  .footer-desktop{
+    display: none !important;
+  }
+}
+@media screen and (min-width: 750px) {
+  .nav-container-mobile{
+    display: none !important;
+  }
+  .footer-mobile{
+    display: none !important;
+  }
+  .nav-container-1{
+    display: block !important;
+  }
+
+  .footer-desktop{
+   display: block !important;
+ }
+}
+
+
+
+
+#brand{
+    float:left;
+}
+#menutest {
+   float:left;
+}
+nav{
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+nav ul{
+    line-height: 300px;
+    cursor: pointer;
+}
+nav a.manubar-text:hover{
+  background:green;
+  color: red;
+  border-radius: 5px;
+}
+
+a.manubar-text{
+  cursor: pointer;
+  font-family:'Work Sans',sans-serif;
+  font-weight: 400;
+    font-size:24px;
+    color:#042333;
+    letter-spacing:0;
+    line-height:26px;
+    text-align:center;
+}
+
+
+
+.flow_line-footer
+  {
+  width:80%;
+  height: 47px;
+  border-bottom: 5px dotted #ffffff;
+  margin-left: -15px;
+/*position: absolute;
+margin-left: 50px;*/
+  }
+
+
+.navbar-text-kruzr-title
+{
+  font-family:'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size:28px;
+  color:#042333;
+  letter-spacing:0;
+  line-height:42px;
+  text-align:left;
+  padding-top: 10px;
+  /*margin-left: -200px;*/
+
+}
+
+/*  T & C text styles  */
+.title-text{
+font-family:'Work Sans', sans-serif;
+letter-spacing: 0px;
+text-align:center;
+line-height:60px;
+font-size: 48px;
+color: #000;
+}
+.subtitle-text{
+font-family:'Work Sans', sans-serif;
+letter-spacing: 0px;
+text-align:center;
+line-height:40px;
+font-size: 30px;
+color: #000;
+}
+.paragraph{
+font-family:'Work Sans', sans-serif;
+letter-spacing: 0px;
+text-align:left;
+line-height:25px;
+font-size: 18px;
+color: #879BA3;
+}

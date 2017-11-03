@@ -1,0 +1,65 @@
+
+/* ---------------------------------------
+			Start Media Query 
+----------------------------------------- */
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	html {font-size: 12px;}
+
+	/* Start header section */
+	.header .content h1 {font-size: 3rem;}
+	/* End header section */
+
+	/* Start portfolio section */
+	.portfolio .controls button {
+		width: 50%;
+		margin: 5px auto;
+	}
+	.portfolio #Container .mix { width: 100%;}
+	.portfolio .overlay-content span, .portfolio .overlay-content i {
+		margin: 0 auto;
+	}
+ 	/* End portfolio section */
+}
+
+/* Smart phones and Tablets */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+	html {font-size: 14px;}
+
+	/* Start portfolio section */
+	.portfolio .controls button {margin-right: 10px;}
+	/* End Portfolio section */
+}
+
+
+@media (max-width: 767px) {
+
+	/* Start  Experiences section */
+	.experiences .timeline .timeline-block .content {
+		width: 100%;
+		margin-top: 63px;
+	}
+
+	.experiences .timeline .timeline-block .content::before, .experiences .timeline .timeline-block .content.right::before {
+		left: 50%;
+		top: 33px;
+		margin-left: -15px;
+		border-left: 15px solid transparent;
+		border-right: 15px solid transparent;
+		border-bottom: 15px solid #222;
+	}
+	/* End  Experiences section */
+
+	/* Start about me section */
+	.about-me {text-align: center;}
+	/* End about me section */
+
+	/* Start Testmonials Section */
+	.testmonials .opinion p {width: 100%;}
+	/* End Testmonials Section */
+}
+
+/* End Media Query */

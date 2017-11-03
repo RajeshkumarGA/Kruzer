@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64px" height="72px" viewBox="0 0 64 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_hex_end</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5-how-it-works" transform="translate(-425.000000, -1341.000000)">
+            <g id="ic_hex_end" transform="translate(421.000000, 1341.000000)">
+                <polygon id="Polygon-Copy-6" fill="#4A90E2" points="36 0 67.1769145 18 67.1769145 54 36 72 4.82308546 54 4.82308546 18"></polygon>
+                <text id="End-of-Drive" font-family="WorkSans-Medium, Work Sans" font-size="14" font-weight="400" fill="#FFFFFF">
+                    <tspan x="14.044" y="33">End of</tspan>
+                    <tspan x="18.902" y="49">Drive</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

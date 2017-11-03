@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="260px" height="260px" viewBox="0 0 260 260" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>first</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m1---a" transform="translate(-58.000000, -220.000000)">
+            <g id="first" transform="translate(58.000000, 220.000000)">
+                <circle id="Oval-3" fill="#FFD34E" cx="130" cy="130" r="130"></circle>
+                <text id="15%" font-family="WorkSans-Light, Work Sans" font-size="96" font-weight="300" fill="#FFFFFF">
+                    <tspan x="65.056" y="147">15</tspan>
+                    <tspan x="153.856" y="147" font-family="WorkSans-Regular, Work Sans" font-size="48" font-weight="normal">%</tspan>
+                </text>
+                <text id="Within-02-Secs" font-family="WorkSans-Medium, Work Sans" font-size="20" font-weight="400" fill="#FFFFFF">
+                    <tspan x="56.35" y="185">Within 02 Secs</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
